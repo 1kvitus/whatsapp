@@ -11,6 +11,7 @@
 		5FB4D1562BE67FFC00587ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4D1552BE67FFC00587ADA /* ContentView.swift */; };
 		5FB4D1582BE6800000587ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4D1572BE6800000587ADA /* Assets.xcassets */; };
 		5FB4D15B2BE6800000587ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4D15A2BE6800000587ADA /* Preview Assets.xcassets */; };
+		5FB4D1722BE6A12700587ADA /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4D1712BE6A12700587ADA /* MainTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5FB4D1552BE67FFC00587ADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FB4D1572BE6800000587ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB4D15A2BE6800000587ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FB4D1712BE6A12700587ADA /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,11 @@
 		5FB4D1522BE67FFC00587ADA /* whatsapp */ = {
 			isa = PBXGroup;
 			children = (
+				5FB4D1652BE687F600587ADA /* App */,
+				5FB4D1642BE687E900587ADA /* Core */,
+				5FB4D1622BE687E200587ADA /* Model */,
+				5FB4D1632BE687E600587ADA /* Service */,
+				5FB4D1612BE687C500587ADA /* Utils */,
 				5FB4D1532BE67FFC00587ADA /* whatsappApp.swift */,
 				5FB4D1552BE67FFC00587ADA /* ContentView.swift */,
 				5FB4D1572BE6800000587ADA /* Assets.xcassets */,
@@ -65,6 +72,122 @@
 				5FB4D15A2BE6800000587ADA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FB4D1612BE687C500587ADA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5FB4D1622BE687E200587ADA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FB4D1632BE687E600587ADA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5FB4D1642BE687E900587ADA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5FB4D16E2BE6A08600587ADA /* Authentication */,
+				5FB4D16D2BE6A08300587ADA /* Components */,
+				5FB4D16C2BE6A08000587ADA /* Chat */,
+				5FB4D16B2BE6A07D00587ADA /* Inbox */,
+				5FB4D16A2BE6A07900587ADA /* NewMessage */,
+				5FB4D1692BE6A07600587ADA /* Profile */,
+				5FB4D1682BE6A07200587ADA /* Root */,
+				5FB4D1672BE6A06D00587ADA /* Setting */,
+				5FB4D1662BE6A06900587ADA /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5FB4D1652BE687F600587ADA /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5FB4D1662BE6A06900587ADA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5FB4D1702BE6A10D00587ADA /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		5FB4D1672BE6A06D00587ADA /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		5FB4D1682BE6A07200587ADA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5FB4D1692BE6A07600587ADA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5FB4D16A2BE6A07900587ADA /* NewMessage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewMessage;
+			sourceTree = "<group>";
+		};
+		5FB4D16B2BE6A07D00587ADA /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		5FB4D16C2BE6A08000587ADA /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		5FB4D16D2BE6A08300587ADA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5FB4D16E2BE6A08600587ADA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5FB4D1702BE6A10D00587ADA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB4D1712BE6A12700587ADA /* MainTabBar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB4D1722BE6A12700587ADA /* MainTabBar.swift in Sources */,
 				5FB4D1562BE67FFC00587ADA /* ContentView.swift in Sources */,
 				5FB4D1542BE67FFC00587ADA /* whatsappApp.swift in Sources */,
 			);
