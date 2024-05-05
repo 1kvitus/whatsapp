@@ -13,17 +13,21 @@ struct MainTabBar: View {
     var body: some View {
         TabView {
             
-            Text("Inbox")
+            InboxView()
                 .tabItem {
                     VStack {
                         Image(systemName: "bubble.fill")
                             .environment(\.symbolVariants, selectTab == 0 ? .fill : .none)
-                        Text("Chat")
+                        Text("Chats")
+                            
                     }
                     .onAppear() {
                         selectTab = 0
                     }
                 }
+            
+            
+            
             Text("Updates")
                 .tabItem {
                     VStack {
@@ -58,8 +62,9 @@ struct MainTabBar: View {
                         selectTab = 0
                     }
                 }
-            
+                
         }
+        .tint(.black)
     }
 }
 

@@ -12,6 +12,8 @@
 		5FB4D1582BE6800000587ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4D1572BE6800000587ADA /* Assets.xcassets */; };
 		5FB4D15B2BE6800000587ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4D15A2BE6800000587ADA /* Preview Assets.xcassets */; };
 		5FB4D1722BE6A12700587ADA /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4D1712BE6A12700587ADA /* MainTabBar.swift */; };
+		5FB4D1752BE713DD00587ADA /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4D1742BE713DD00587ADA /* InboxView.swift */; };
+		5FB4D1782BE7172C00587ADA /* NavigationColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4D1772BE7172C00587ADA /* NavigationColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5FB4D1572BE6800000587ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB4D15A2BE6800000587ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FB4D1712BE6A12700587ADA /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		5FB4D1742BE713DD00587ADA /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		5FB4D1772BE7172C00587ADA /* NavigationColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 		5FB4D16B2BE6A07D00587ADA /* Inbox */ = {
 			isa = PBXGroup;
 			children = (
+				5FB4D1732BE713C200587ADA /* View */,
 			);
 			path = Inbox;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 		5FB4D16D2BE6A08300587ADA /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5FB4D1762BE7170F00587ADA /* Modifiers */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -188,6 +194,22 @@
 				5FB4D1712BE6A12700587ADA /* MainTabBar.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5FB4D1732BE713C200587ADA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB4D1742BE713DD00587ADA /* InboxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FB4D1762BE7170F00587ADA /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5FB4D1772BE7172C00587ADA /* NavigationColor.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB4D1722BE6A12700587ADA /* MainTabBar.swift in Sources */,
+				5FB4D1752BE713DD00587ADA /* InboxView.swift in Sources */,
+				5FB4D1782BE7172C00587ADA /* NavigationColor.swift in Sources */,
 				5FB4D1562BE67FFC00587ADA /* ContentView.swift in Sources */,
 				5FB4D1542BE67FFC00587ADA /* whatsappApp.swift in Sources */,
 			);
